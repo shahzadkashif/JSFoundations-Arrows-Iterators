@@ -48,4 +48,4 @@ const hottestDays = (temperatures, threshhold) =>
 const logHottestDays = (temperatures, threshhold) =>
   logger(toCelsius(hottestDays(temperatures, threshhold)));
 
-export { logger, toCelsius, hottestDays, logHottestDays };
+module.exports = { logger, toCelsius, hottestDays, logHottestDays };
